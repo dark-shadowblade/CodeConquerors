@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ST001",
+    "name": "Aurangabad Central",
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "lat": 19.8762,
+    "lon": 75.3433
+  },
+  {
+    "id": "ST002",
+    "name": "Nashik South",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "lat": 20.0059,
+    "lon": 73.787
+  },
+  {
+    "id": "ST003",
+    "name": "Pune East",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "lat": 18.5204,
+    "lon": 73.8567
+  },
+  {
+    "id": "ST004",
+    "name": "Nagpur North",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "lat": 21.1458,
+    "lon": 79.0882
+  },
+  {
+    "id": "ST005",
+    "name": "Solapur West",
+    "state": "Maharashtra",
+    "district": "Solapur",
+    "lat": 17.6599,
+    "lon": 75.9064
+  }
+]
