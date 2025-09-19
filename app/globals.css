@@ -1792,3 +1792,75 @@ input:disabled + .slider {
     align-items: flex-start;
   }
   }
+/* --- TREND ANALYSIS (Analytics page) --- */
+.trend-analysis-container {
+  margin: 2rem auto 3rem auto;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 800px;
+}
+
+.trend-title {
+  margin: 0 0 1rem 0;
+  color: #0077cc;
+  font-size: 1.6rem;
+}
+
+.trend-select-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.trend-label {
+  font-weight: 500;
+  color: #444;
+  font-size: 1rem;
+}
+
+.trend-select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f9fa;
+  font-size: 1rem;
+}
+
+.trend-chart-container {
+  margin: 0 auto;
+  max-width: 700px;
+  background: #f5f8fd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,119,204,0.06);
+}
+
+.trend-note {
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.trend-dot {
+  display: inline-block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.trend-dot.historical { background: #0077cc; }
+.trend-dot.predicted { background: #ff4757; }
+
+.trend-empty {
+  margin: 2rem 0;
+  color: #999;
+  font-size: 1rem;
+  text-align: center;
+}
